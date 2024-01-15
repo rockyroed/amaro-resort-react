@@ -1,18 +1,11 @@
-import amaroLogo from "./assets/AmaroResort.png";
-import footerLogo from "./assets/FooterLogo.png";
-import locationLogo from "./assets/location.png";
-import telephoneLogo from "./assets/telephone.png";
-import emailLogo from "./assets/email.png";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-
-} from "@fortawesome/free-solid-svg-icons";
+import locationLogo from "../assets/location.png";
+import telephoneLogo from "../assets/telephone.png";
+import emailLogo from "../assets/email.png";
 
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 
-import "./Contacts.css";
+import "../css/Contacts.css";
 
 function Contacts() {
     return (

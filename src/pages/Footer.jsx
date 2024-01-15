@@ -1,14 +1,13 @@
-import footerLogo from "./assets/FooterLogo.png";
+import { Link } from "react-router-dom";
+
+import footerLogo from "../assets/FooterLogo.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faEnvelope,
-    faPaperPlane,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
-import "./App.css";
+import "../App.css";
 
 function Footer() {
     return (
@@ -66,13 +65,22 @@ function Footer() {
                                 <h2>Links</h2>
                                 <ul>
                                     <li>
-                                        <a href="index.php">Home</a>
+                                        <Link to="/" className="navbar">
+                                            {" "}
+                                            Home{" "}
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="about.php">About</a>
+                                        <Link to="/about" className="navbar">
+                                            {" "}
+                                            About{" "}
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="services.php">Services</a>
+                                        <Link to="/services" className="navbar">
+                                            {" "}
+                                            Services{" "}
+                                        </Link>
                                     </li>
                                     <li>
                                         <a href="reservation.php">
@@ -80,7 +88,10 @@ function Footer() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="contact.php">Contact</a>
+                                        <Link to="/contacts" className="navbar">
+                                            {" "}
+                                            Contact{" "}
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -96,9 +107,10 @@ function Footer() {
                                         <a href="t&c.php">Terms & Conditions</a>
                                     </li>
                                     <li>
-                                        <a href="rules.php">
-                                            Rules and Regulations
-                                        </a>
+                                        <Link to="/rules" className="navbar">
+                                            {" "}
+                                            Rules{" "}
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

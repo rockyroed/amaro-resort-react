@@ -1,14 +1,11 @@
-import amaroLogo from "./assets/AmaroResort.png";
+import { Link } from "react-router-dom";
+
+import amaroLogo from "../assets/AmaroResort.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faBars,
-    faSignInAlt,
-    faRightFromBracket,
-    faUserEdit,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 
-import "./App.css";
+import "../App.css";
 
 function Header() {
     return (
@@ -20,26 +17,26 @@ function Header() {
                     </a>
                 </div>
                 <div className="nav-bar" id="navbar">
-                    <a className="navBar" href="index.php">
+                    <Link to="/" className="navbar">
                         {" "}
                         Home{" "}
-                    </a>
-                    <a className="navBar" href="about.php">
+                    </Link>
+                    <Link to="/about" className="navbar">
                         {" "}
                         About{" "}
-                    </a>
-                    <a className="navBar" href="services.php">
+                    </Link>
+                    <Link to="/services" className="navbar">
                         {" "}
                         Services{" "}
-                    </a>
+                    </Link>
                     <a className="navBar" href="login.php">
                         {" "}
                         Reservation{" "}
                     </a>
-                    <a className="navBar" href="contact.php">
+                    <Link to="/contacts" className="navbar">
                         {" "}
                         Contact{" "}
-                    </a>
+                    </Link>
                 </div>
                 <a href="login.php" id="book-button">
                     <button type="button" className="book-btn">

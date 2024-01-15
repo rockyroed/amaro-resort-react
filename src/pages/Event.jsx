@@ -5,7 +5,7 @@ import CTA from "./CTA.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 
-import "./Event.css";
+import "../css/Event.css";
 
 function Event() {
     return (

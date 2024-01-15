@@ -203,12 +203,12 @@ body {
 
     .left-img-1 {
         width: 50%;
-        background: url("./assets/coupleroom.jpg") center/cover no-repeat;
+        background: url("../assets/coupleroom.jpg") center/cover no-repeat;
     }
 
     .left-img-2 {
         width: 50%;
-        background: url("./assets/familyroom.jpg") center/cover no-repeat;
+        background: url("../assets/familyroom.jpg") center/cover no-repeat;
     }
 
     .right-details {
@@ -295,7 +295,7 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area11.jpg");
+    background: url("../assets/area11.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -307,7 +307,7 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area12.jpg");
+    background: url("../assets/area12.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -319,7 +319,7 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area21.jpg");
+    background: url("../assets/area21.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -331,7 +331,7 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area22.jpg");
+    background: url("../assets/area22.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -343,7 +343,7 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area23.jpg");
+    background: url("../assets/area23.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -355,7 +355,7 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area31.jpg");
+    background: url("../assets/area31.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -367,7 +367,7 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area32.jpg");
+    background: url("../assets/area32.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -407,7 +407,7 @@ body {
     .cta-bg {
         width: 100%;
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-            url("./assets/ctabg.png") center/cover no-repeat;
+            url("../assets/ctabg.png") center/cover no-repeat;
         min-height: 500px;
         color: #fff;
         padding: 50px 30px 30px 30px;

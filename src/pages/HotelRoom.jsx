@@ -5,7 +5,7 @@ import CTA from "./CTA.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 
-import "./HotelRoom.css";
+import "../css/HotelRoom.css";
 
 function HotelRoom() {
     return (

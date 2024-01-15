@@ -2,7 +2,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import CTA from "./CTA.jsx";
 
-import "./Services.css";
+import "../css/Services.css";
 
 function Services() {
   return (

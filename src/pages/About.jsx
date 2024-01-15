@@ -2,7 +2,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import CTA from "./CTA.jsx";
 
-import "./About.css";
+import "../css/About.css";
 
 function About() {
     return (

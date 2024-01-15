@@ -128,6 +128,17 @@ body {
         }
     }
 
+    .mobile-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-menu {
+        display: none;
+    }
+
     #menu-icon {
         color: var(--bg-color);
         font-size: 24px;
@@ -176,13 +187,44 @@ body {
     }
 }
 
-/*swimming rates*/
-#roomRates {
+/*header*/
+#header {
+    .header-container {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../assets/SvcBG.png") center/cover no-repeat;
+        min-height: 50vh;
+        color: #fff;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .header-content {
+        align-content: center;
+        justify-content: center;
+    }
+
+    .header-content h1 {
+        text-align: center;
+        align-content: center;
+        color: #fff;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+/*services*/
+#services {
     display: flex;
     margin: 50px;
 }
 
-.rates-container {
+.svc-container {
     width: 100%;
     height: auto;
     color: #000;
@@ -193,68 +235,111 @@ body {
     margin-bottom: 20px;
 }
 
-.room-rates-container {
-    width: 92%;
+.svc-options {
     display: flex;
-    flex-direction: row;
-    justify-items: center;
     margin: 20px;
+    gap: 30px;
+}
+
+.svc-type {
+    width: 350px;
+    height: auto;
+}
+
+.swim-img-container {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+    background: url("../assets/1Swimming.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.room-img-container {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+    background: url("../assets/2Room.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.event-img-container {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+    background: url("../assets/3Event.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.svctype-desc {
+    width: 350px;
+    height: auto;
+}
+
+.svc-title {
+    color: var(--text-black-clr);
+    font-weight: 600;
+    font-size: 25px;
+    text-align: left;
+}
+
+.svc-desc {
+    margin-bottom: 10px;
+    color: var(--text-black-clr);
+    font-size: 16px;
+    text-align: justify;
+}
+
+.svc-btn {
+    width: 214px;
+    height: 60px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: var(--secondary-button-clr);
     box-shadow: 0px 4px 30px 0px rgba(12, 54, 14, 0.3);
+    color: var(--primary-button-clr);
+    cursor: pointer;
+    border: 2px solid var(--primary-button-clr);
+    text-align: center;
+}
 
-    .left-img-1 {
-        width: 50%;
-        background: url("./assets/functionhall.jpg") center/cover no-repeat;
+.svc-btn:hover {
+    background: var(--primary-btn-hover);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .svc-options {
+        flex-direction: column;
     }
 
-    .left-img-2 {
-        width: 50%;
-        background: url("./assets/court.jpg") center/cover no-repeat;
-    }
-
-    .right-details {
-        width: 50%;
+    .svc-type {
+        width: 100%;
         height: auto;
-        background: var(--background-clr);
-        padding: 20px;
-    }
-
-    .room-price {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .room-price p {
-        font-size: 20px;
-        font-weight: 700;
-        color: var(--main-text-clr);
-    }
-
-    .inclusions {
-        display: flex;
         margin-bottom: 20px;
     }
 
-    .fa-arrow-circle-right {
-        font-size: 25px;
-        color: var(--accent-clr);
-        margin-right: 10px;
-    }
-
-    .right-details h2 {
+    .swim-img-container,
+    .room-img-container,
+    .event-img-container {
+        width: 100%;
+        height: 300px;
         margin-bottom: 10px;
     }
 
-    .right-details span {
-        font-weight: 600;
+    .svctype-desc {
+        width: 100%;
     }
 
-    .right-details ul {
-        margin-left: 40px;
-        margin-bottom: 20px;
-    }
-
-    .right-details ul li {
-        margin: 10px;
+    .svc-btn {
+        width: 100%;
     }
 }
 
@@ -279,11 +364,14 @@ body {
     margin: 0px 0 20px 0;
 }
 
+.categories h2 {
+    text-align: left;
+    margin: 50px 0 20px 0;
+}
+
 .amenities-image-container {
     display: flex;
-    gap: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    gap: 20px;
 }
 
 .facilities {
@@ -295,11 +383,10 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area11.jpg");
+    background: url("../assets/area11.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .amenities-area12 {
@@ -307,11 +394,10 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area12.jpg");
+    background: url("../assets/area12.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .amenities-area21 {
@@ -319,11 +405,10 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area21.jpg");
+    background: url("../assets/area21.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .amenities-area22 {
@@ -331,11 +416,10 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area22.jpg");
+    background: url("../assets/area22.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .amenities-area23 {
@@ -343,11 +427,10 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area23.jpg");
+    background: url("../assets/area23.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .amenities-area31 {
@@ -355,11 +438,10 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area31.jpg");
+    background: url("../assets/area31.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
 }
 
 .amenities-area32 {
@@ -367,30 +449,14 @@ body {
     height: 400px;
     margin-bottom: 10px;
     border-radius: 10px;
-    background: url("./assets/area32.jpg");
+    background: url("../assets/area32.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
-}
-
-.cottage-price {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.facilities h3 {
-    text-align: left;
-    margin: 10px 0 0 0;
-}
-
-.facilities h2 {
-    color: var(--main-text-clr);
 }
 
 .facilities p {
-    text-align: left;
+    text-align: center;
     font-style: italic;
 }
 
@@ -407,7 +473,7 @@ body {
     .cta-bg {
         width: 100%;
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-            url("./assets/ctabg.png") center/cover no-repeat;
+            url("../assets/ctabg.png") center/cover no-repeat;
         min-height: 500px;
         color: #fff;
         padding: 50px 30px 30px 30px;
@@ -460,7 +526,6 @@ body {
         background: transparent;
         padding: 10px 20px;
         background: var(--primary-button-clr);
-        box-shadow: 0px 4px 30px 0px rgba(12, 54, 14, 0.3);
         color: #fff;
         cursor: pointer;
         width: 250px;
@@ -715,7 +780,6 @@ body {
             margin: 0 auto;
         }
     }
-
     #email {
         background-color: #fff;
     }
