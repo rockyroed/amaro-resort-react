@@ -311,12 +311,12 @@ function Rules() {
                   by subscribing to our newsletter.
                 </p>
                 <div class="subscribe">
-                  <input
+                <input
                     type="email"
                     id="email"
                     name="email"
                     placeholder="Enter your email"
-                  ></input>
+                  />
                   <button type="submit" title="subscribe">
                     <FontAwesomeIcon icon={faPaperPlane} id="subButton" />
                   </button>
