@@ -29,7 +29,7 @@ function Contacts() {
   <div className="content">
 
     <div className="imagecontainer">
-      <img src={locationLogo} alt="locationicon" className="custom-image"> </img>
+      <img src={locationLogo} alt="locationicon" className="custom-image" />
     </div>
 
     <div className="address">
@@ -39,7 +39,7 @@ function Contacts() {
     </div>
 
     <div className="imagecon2">
-      <img src={telephoneLogo} alt="telephoneicon" className="custom-image2"></img>
+      <img src={telephoneLogo} alt="telephoneicon" className="custom-image2" />
     </div>
 
     <div className="telephone">
@@ -56,7 +56,7 @@ function Contacts() {
     </div>
 
     <div className="imagecon3">
-      <img src={emailLogo} alt="telephoneicon" className="custom-image3"></img>
+      <img src={emailLogo} alt="telephoneicon" className="custom-image3" />
     </div>
 
     <div className="mail">
