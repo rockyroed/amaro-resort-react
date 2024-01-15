@@ -12,6 +12,10 @@ import {
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 
+import {
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+
 import "./App.css";
 
 function App() {
@@ -60,12 +64,12 @@ function App() {
             <div className="mobile-button">
               <span id="user-button">
                 <a href="login.php">
-                  <FontAwesomeIcon icon={faBars} />
+                  <FontAwesomeIcon icon={faBars} id="main-menu" />
                 </a>
               </span>
 
               <span id="menu-bar">
-                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faBars} id="main-menu" />
               </span>
             </div>
 
@@ -213,19 +217,19 @@ function App() {
 
               <div className="rating">
                 <span>
-                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} id="star" />
                 </span>
                 <span>
-                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} id="star" />
                 </span>
                 <span>
-                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} id="star" />
                 </span>
                 <span>
-                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} id="star" />
                 </span>
                 <span>
-                  <FontAwesomeIcon icon={faStar} />
+                  <FontAwesomeIcon icon={faStar} id="star" />
                 </span>
               </div>
 
@@ -337,7 +341,7 @@ function App() {
               <div className="fb-link">
                 <a href="https://www.facebook.com/amaroresort2023" id="fblink">
                   <span>
-                    <i className="fab fa-facebook" id="ftricon"></i>
+                    <FontAwesomeIcon icon={faFacebook} id="ftricon" />
                   </span>
                   <span className="label">Amaro Resort</span>
                 </a>
@@ -345,7 +349,7 @@ function App() {
               <div className="email-address">
                 <a href="mailto:amaroresort@gmail.com" id="emailadd">
                   <span>
-                    <FontAwesomeIcon icon={faEnvelope} />
+                    <FontAwesomeIcon icon={faEnvelope} id="ftricon" />
                   </span>
                   <span className="label">amaroresort@gmail.com</span>
                 </a>
@@ -402,7 +406,7 @@ function App() {
                     placeholder="Enter your email"
                   />
                   <button type="submit" title="subscribe">
-                    <FontAwesomeIcon icon={faPaperPlane} />
+                    <FontAwesomeIcon icon={faPaperPlane} id="subButton" />
                   </button>
                 </div>
               </div>
