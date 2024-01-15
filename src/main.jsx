@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Swimming from './Swimming.jsx'
+import About from './About.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Swimming />
+    <About />
   </React.StrictMode>,
 )
