@@ -83,9 +83,9 @@ function Contacts() {
 
   </div>
 
-  {/* <div className="google-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15433.960618757048!2d120.9856815!3d14.7413931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b107a4606dcb%3A0xddff5b3356ef5b20!2sAMARO%20RESORT!5e0!3m2!1sen!2sph!4v1689492395935!5m2!1sen!2sph" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-  </div> */}
+  <div className="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15433.960618757048!2d120.9856815!3d14.7413931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b107a4606dcb%3A0xddff5b3356ef5b20!2sAMARO%20RESORT!5e0!3m2!1sen!2sph!4v1689492395935!5m2!1sen!2sph" style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+  </div>
   {/* <!-- end of content --> */}
 
   {/* <!-- start of footer --> */}
