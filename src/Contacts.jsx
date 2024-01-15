@@ -9,6 +9,9 @@ import {
 
 } from "@fortawesome/free-solid-svg-icons";
 
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+
 import "./Contacts.css";
 
 function Contacts() {
@@ -17,41 +20,7 @@ function Contacts() {
     <section id="navBar" className="page-section active">
     {/* <!-- start of nav --> */}
     <div className="nav" id="nav">
-      <div className="site-nav">
-        <div className="site-name" id="site-name">
-          <a href="index.php" id="navlogo">
-            <img src={amaroLogo} alt="logo" className="logo"></img>
-          </a>
-        </div>
-        <div className="nav-bar" id="navbar">
-        <a className="navBar" href="index.php"> Home </a>
-        <a className="navBar" href="about.php"> About </a>
-        <a className="navBar" href="services.php"> Services </a>
-        <a className="navBar" href="login.php"> Reservation </a>
-        <a className="navBar" href="contact.php"> Contact </a>
-        </div>
-
-          <a href="login.php" id="book-button">
-            <button type="button" className="book-btn">Book Now</button>
-          </a>
-
-        <div className="mobile-button">
-          <span id="user-button">
-              <a href="login.php">
-                <i className="fas fa-sign-in-alt" id="user" title="Log In"></i>
-              </a>
-          </span>
-
-          <span id="menu-bar">
-            <i className="fas fa-bars" id="main-menu"></i>
-          </span>
-        </div>
-
-        <div className="account-menu" id="account-menu">
-          <a href="account.php"><i className="fas fa-user-edit"></i>Account</a>
-          <a href="logout.php?type=guest"><i className="fas fa-sign-out-alt"></i>Logout</a>
-        </div>
-      </div>
+      <Header/>
     </div>
     {/* <!-- end of nav --> */}
   </section>
@@ -120,68 +89,7 @@ function Contacts() {
   {/* <!-- end of content --> */}
 
   {/* <!-- start of footer --> */}
-  <section id="footer">
-    <div className="ftr-container">
-      <div className="ftr-content">
-        <div className="ftr-left">
-          <a href="index.php" id="footerLogo">
-            <img src={footerLogo} alt="logo" className="ftr-logo"></img>
-          </a>
-          <p className="cta-text">
-            Book your unforgettable getaway now and experience the ultimate
-            relaxation at our resort!
-          </p>
-          <div className="fb-link">
-            <a href="https://www.facebook.com/amaroresort2023" id="fblink">
-              <span><i className="fab fa-facebook" id="ftricon"></i></span>
-              <span className="label">Amaro Resort</span>
-            </a>
-          </div>
-          <div className="email-address">
-            <a href="mailto:amaroresort@gmail.com" id="emailadd">
-              <span><i className="fas fa-envelope" id="ftricon"></i></span>
-              <span className="label">amaroresort@gmail.com</span>
-            </a>
-          </div>
-        </div>
-
-        <div className="ftr-right">
-          <div className="links-label">
-            <h2>Links</h2>
-            <ul>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="services.php">Services</a></li>
-              <li><a href="reservation.php">Reservation</a></li>
-              <li><a href="contact.php">Contact</a></li>
-            </ul>
-          </div>
-          <div className="links-label">
-            <h2>Legal</h2>
-            <ul>
-              <li><a href="privacypolicy.php">Privacy Policy</a></li>
-              <li><a href="t&c.php">Terms & Conditions</a></li>
-              <li><a href="rules.php">Rules and Regulations</a></li>
-              </ul>
-          </div>
-          <div className="newsletter">
-            <h2>Newsletter</h2>
-            <p className="newsletter-text">
-              Elevate your resort experience and be the first to receive exclusive promotions,
-              exciting updates, and insider insights by subscribing to our newsletter.
-            </p>
-            <div className="subscribe">
-              <input type="email" id="email" name="email" placeholder="Enter your email"></input>
-              <button type="submit" title="subscribe"><i className="fas fa-paper-plane" id="subButton"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="copyright">
-        Copyright © 2023. All rights reserved.
-      </div>
-    </div>
-  </section>
+  <Footer/>
   {/* <!-- end of footer --> */}
         </>
     );
