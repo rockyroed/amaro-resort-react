@@ -245,7 +245,7 @@ function Rules() {
         <div className="ftr-container">
           <div className="ftr-content">
             <div className="ftr-left">
-              <img src={footerLogo} alt="logo" classNameName="ftr-logo" />
+              <img src={footerLogo} alt="logo" className="ftr-logo" />
               <p className="cta-text">
                 Book your unforgettable getaway now and experience the ultimate
                 relaxation at our resort!
