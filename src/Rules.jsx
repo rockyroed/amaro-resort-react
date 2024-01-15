@@ -23,7 +23,7 @@ function Rules() {
         <div className="nav" id="nav">
           <div className="site-nav">
             <div className="site-name" id="site-name">
-              <img src={amaroLogo} alt="logo" classNameName="logo" />
+              <img src={amaroLogo} alt="logo" className="logo" />
             </div>
             <div className="nav-bar" id="navbar">
               <a className="navBar" href="index.php">
