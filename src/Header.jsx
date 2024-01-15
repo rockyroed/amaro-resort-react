@@ -3,6 +3,7 @@ import amaroLogo from "./assets/AmaroResort.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faBars,
+    faSignInAlt,
     faRightFromBracket,
     faUserEdit,
 } from "@fortawesome/free-solid-svg-icons";
@@ -51,23 +52,13 @@ function Header() {
                 <div className="mobile-button">
                     <span id="user-button">
                         <a href="login.php">
-                            <FontAwesomeIcon icon={faBars} id="main-menu" />
+                            <FontAwesomeIcon icon={faSignInAlt} id="user" />
                         </a>
                     </span>
 
                     <span id="menu-bar">
                         <FontAwesomeIcon icon={faBars} id="main-menu" />
                     </span>
-                </div>
-
-                <div className="account-menu" id="account-menu">
-                    <a href="account.php">
-                        <FontAwesomeIcon icon={faUserEdit} />
-                        Account
-                    </a>
-                    <a href="logout.php?type=guest">
-                        <FontAwesomeIcon icon={faRightFromBracket} />
-                    </a>
                 </div>
             </div>
         </>
