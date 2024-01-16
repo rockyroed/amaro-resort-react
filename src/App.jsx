@@ -11,6 +11,7 @@ import Reservation from "./pages/Reservation.jsx";
 import Rules from "./pages/Rules.jsx";
 import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
+import Login from "./pages/Login.jsx";
 
 
 const App = () => {
@@ -54,6 +55,7 @@ const App = () => {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/event" element={<Event />} />
             <Route path="/hotelroom" element={<HotelRoom />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/reservation" element={<Reservation />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />

@@ -32,7 +32,7 @@ const Header = () => {
                     <Link to="/reservation" className="navbar">
                         {" "}
                         Reservation{" "}
-                        </Link>
+                    </Link>
                     <Link to="/contacts" className="navbar">
                         {" "}
                         Contact{" "}
@@ -48,9 +48,9 @@ const Header = () => {
 
                 <div className="mobile-button">
                     <span id="user-button">
-                        <a href="login.php">
+                        <Link to="/login">
                             <FontAwesomeIcon icon={faSignInAlt} id="user" />
-                        </a>
+                        </Link>
                     </span>
 
                     <span id="menu-bar">
@@ -60,6 +60,6 @@ const Header = () => {
             </div>
         </>
     );
-}
+};
 
 export default Header;
