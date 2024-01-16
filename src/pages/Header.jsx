@@ -12,9 +12,9 @@ const Header = () => {
         <>
             <div className="site-nav">
                 <div className="site-name" id="site-name">
-                    <a href="index.php" id="navlogo">
+                    <Link to="/" id="navlogo">
                         <img src={amaroLogo} alt="logo" className="logo" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="nav-bar" id="navbar">
                     <Link to="/" className="navbar">
@@ -60,6 +60,6 @@ const Header = () => {
             </div>
         </>
     );
-}
+};
 
 export default Header;
