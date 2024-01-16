@@ -13,6 +13,7 @@ import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
 import BookingDetails from "./pages/BookingDetails.jsx";
 import Confirmation from "./pages/Confirmation.jsx";
+import Details from "./pages/Details.jsx";
 
 
 const App = () => {
@@ -62,6 +63,7 @@ const App = () => {
             <Route path="/swimming" element={<Swimming />} />
             <Route path="/bookingdetails" element={<BookingDetails />} />
             <Route path="/confirmation" element={<Confirmation />} />
+            <Route path="/details" element={<Details />} />
         </Routes>
     );
 };
