@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import CTA from "./CTA.jsx";
@@ -49,11 +51,11 @@ const Services = () => {
                                     pools and lap pool.
                                 </p>
                             </div>
-                            <a href="swimming.php" id="swimBook">
+                            <Link to="/swimming" id="swimBook">
                                 <button type="button" className="svc-btn">
                                     VIEW DETAILS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="svc-type">
@@ -69,11 +71,11 @@ const Services = () => {
                                     and ready for new adventures.
                                 </p>
                             </div>
-                            <a href="hotelroom.php" id="roomBook">
+                            <Link to="/hotelroom" id="roomBook">
                                 <button type="button" className="svc-btn">
                                     VIEW DETAILS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="svc-type">
@@ -90,11 +92,11 @@ const Services = () => {
                                     details.
                                 </p>
                             </div>
-                            <a href="event.php" id="eventBook">
+                            <Link to="/event" id="eventBook">
                                 <button type="button" className="svc-btn">
                                     VIEW DETAILS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
