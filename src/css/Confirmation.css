@@ -60,14 +60,12 @@ body {
 
 /* nav */
 #navBar {
-    .nav {
-        color: #fff;
-        padding: 10px 50px 10px 50px;
-        display: flex;
-        flex-direction: column;
-        align-content: stretch;
-        border-bottom: 1px solid #ccc;
-    }
+    color: #fff;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    border-bottom: 1px solid #ccc;
 
     .site-nav {
         height: 80px;
