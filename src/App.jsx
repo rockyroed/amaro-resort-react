@@ -12,6 +12,7 @@ import Rules from "./pages/Rules.jsx";
 import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
 import BookingDetails from "./pages/BookingDetails.jsx";
+import Confirmation from "./pages/Confirmation.jsx";
 
 
 const App = () => {
@@ -60,6 +61,7 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/swimming" element={<Swimming />} />
             <Route path="/bookingdetails" element={<BookingDetails />} />
+            <Route path="/confirmation" element={<Confirmation />} />
         </Routes>
     );
 };
