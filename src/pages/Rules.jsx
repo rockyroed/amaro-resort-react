@@ -20,7 +20,7 @@ const Rules = () => {
                 <h1>Rules and Regulations</h1>
             </div>
 
-            <div className="content">
+            <div className="rules-content">
                 <section id="rules">
                     <div>
                         <h4>Dear Valued Guests,</h4>

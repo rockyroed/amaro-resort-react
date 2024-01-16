@@ -19,7 +19,7 @@ const Contacts = () => {
   </section>
 
   {/* <!-- start of content --> */}
-  <div className="content">
+  <div className="contacts-content">
 
     <div className="imagecontainer">
       <img src={locationLogo} alt="locationicon" className="custom-image" />

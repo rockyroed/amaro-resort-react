@@ -183,7 +183,7 @@ body {
 }
 
 /* Content */
-.content {
+.contacts-content {
     width: 1245px;
     height: 550px;
     flex-shrink: 0;
@@ -424,7 +424,7 @@ h6{
     margin-top: 10px;
 }
 
-.content input[type=fname]{
+.contacts-content input[type=fname]{
     display: inline-flex;
     height: 60px;
     padding: 19px 373px 19px 20px;
@@ -437,7 +437,7 @@ h6{
     margin-top: 20px;
 }
 
-.content input[type=email]{
+.contacts-content input[type=email]{
     display: inline-flex;
     height: 60px;
     padding: 19px 373px 19px 20px;
@@ -450,7 +450,7 @@ h6{
     margin-top: 20px;
 }
 
-.content input[type=message]{
+.contacts-content input[type=message]{
     display: inline-flex;
     height: 150px;
     padding: 18.162px 373px 90.809px 20px;
