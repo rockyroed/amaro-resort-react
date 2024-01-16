@@ -6,7 +6,6 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import CTA from "./CTA.jsx";
-import "../App.css";
 
 const Home = () => {
     return (
@@ -255,6 +254,6 @@ const Home = () => {
             {/* end of footer */}
         </>
     );
-}
+};
 
 export default Home;
