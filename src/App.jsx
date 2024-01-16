@@ -11,8 +11,12 @@ import Reservation from "./pages/Reservation.jsx";
 import Rules from "./pages/Rules.jsx";
 import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
+<<<<<<< HEAD
 import BookingDetails from "./pages/BookingDetails.jsx";
 
+=======
+import BookingSummary from "./pages/BookingSummary.jsx";
+>>>>>>> origin/booking-summary
 
 const App = () => {
     const location = useLocation();
@@ -60,6 +64,7 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/swimming" element={<Swimming />} />
             <Route path="/bookingdetails" element={<BookingDetails />} />
+            <Route path="/bookingsummary" element={<BookingSummary />} />
         </Routes>
     );
 };
