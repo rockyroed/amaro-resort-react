@@ -10,6 +10,7 @@ import HotelRoom from "./pages/HotelRoom.jsx";
 import Rules from "./pages/Rules.jsx";
 import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
+import BookingSummary from "./pages/BookingSummary.jsx";
 
 const App = () => {
     const location = useLocation();
@@ -55,6 +56,7 @@ const App = () => {
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />
             <Route path="/swimming" element={<Swimming />} />
+            <Route path="/bookingsummary" element={<BookingSummary />} />
         </Routes>
     );
 };
