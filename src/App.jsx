@@ -15,6 +15,7 @@ import BookingDetails from "./pages/BookingDetails.jsx";
 import BookingSummary from "./pages/BookingSummary.jsx";
 import Confirmation from "./pages/Confirmation.jsx";
 import Details from "./pages/Details.jsx";
+import Login from "./pages/Login.jsx";
 
 
 const App = () => {
@@ -58,6 +59,7 @@ const App = () => {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/event" element={<Event />} />
             <Route path="/hotel-room" element={<HotelRoom />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/reservation" element={<Reservation />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />
