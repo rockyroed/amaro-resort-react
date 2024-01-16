@@ -290,6 +290,10 @@ body {
 
   .signup-link {
     text-align: center;
+    
+    .question {
+      margin-right: 5px;
+    }
   }
 
   .question {
