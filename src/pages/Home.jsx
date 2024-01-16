@@ -1,5 +1,5 @@
 import profileIcon from "../assets/profile-icon.jpg";
-
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
@@ -55,11 +55,11 @@ const Home = () => {
                                     pools and lap pool.
                                 </p>
                             </div>
-                            <a href="swimming.php" id="swimBook">
+                            <Link to="/swimming" id="swimBook">
                                 <button type="button" className="svc-btn">
                                     VIEW DETAILS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="svc-type">
@@ -75,11 +75,11 @@ const Home = () => {
                                     and ready for new adventures.
                                 </p>
                             </div>
-                            <a href="hotelroom.php" id="roomBook">
+                            <Link to="/hotelroom" id="roomBook">
                                 <button type="button" className="svc-btn">
                                     VIEW DETAILS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="svc-type">
@@ -96,11 +96,11 @@ const Home = () => {
                                     details.
                                 </p>
                             </div>
-                            <a href="event.php" id="eventBook">
+                            <Link to="/event" id="eventBook">
                                 <button type="button" className="svc-btn">
                                     VIEW DETAILS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -130,11 +130,11 @@ const Home = () => {
                                     created.
                                 </p>
                             </div>
-                            <a href="about.php" id="aboutUs">
+                            <Link to="/about" id="aboutUs">
                                 <button type="button" className="abt-btn">
                                     KNOW MORE
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                         <div className="right-content">
                             <div className="slideshow">
