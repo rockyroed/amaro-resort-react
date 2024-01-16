@@ -16,7 +16,7 @@ import BookingSummary from "./pages/BookingSummary.jsx";
 import Confirmation from "./pages/Confirmation.jsx";
 import Details from "./pages/Details.jsx";
 import Login from "./pages/Login.jsx";
-
+import Signup from "./pages/Signup.jsx";
 
 const App = () => {
     const location = useLocation();
@@ -63,6 +63,7 @@ const App = () => {
             <Route path="/reservation" element={<Reservation />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/signup" element={<Signup />} />
             <Route path="/swimming" element={<Swimming />} />
             <Route path="/booking-details" element={<BookingDetails />} />
             <Route path="/booking-summary" element={<BookingSummary />} />
