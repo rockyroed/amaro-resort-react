@@ -7,7 +7,7 @@ import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 import "../css/Event.css";
 
-function Event() {
+const Event= () => {
     return (
         <>
             <section id="navBar" className="page-section active">

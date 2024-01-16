@@ -7,7 +7,7 @@ import Footer from "./Footer.jsx";
 
 import "../css/Contacts.css";
 
-function Contacts() {
+const Contacts = () => {
     return (
         <>
     <section id="navBar" className="page-section active">

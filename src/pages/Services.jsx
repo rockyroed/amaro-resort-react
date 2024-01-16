@@ -4,7 +4,7 @@ import CTA from "./CTA.jsx";
 
 import "../css/Services.css";
 
-function Services() {
+const Services = () => {
   return (
     <>
       {/* start of nav */}

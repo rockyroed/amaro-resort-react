@@ -8,7 +8,7 @@ import Footer from "./Footer.jsx";
 import CTA from "./CTA.jsx";
 import "../App.css";
 
-function Home() {
+const Home = () => {
     return (
         <>
             {/* start of home */}

@@ -1,6 +1,6 @@
 import "../App.css";
 
-function CTA() {
+const CTA = () => {
     return (
         <>
             <section id="cta">

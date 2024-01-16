@@ -4,7 +4,7 @@ import CTA from "./CTA.jsx";
 
 import "../css/Rules.css";
 
-function Rules() {
+const Rules = () => {
     return (
         <>
             <section id="navBar" className="page-section active">

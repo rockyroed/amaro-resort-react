@@ -9,17 +9,17 @@ import Rules from "./pages/Rules.jsx";
 import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
 
-function App() {
+const App = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />}/>
-            <Route path="/contacts" element={<Contacts />}/>
-            <Route path="/event" element={<Event />}/>
-            <Route path="/hotelroom" element={<HotelRoom />}/>
-            <Route path="/rules" element={<Rules />}/>
-            <Route path="/services" element={<Services />}/>
-            <Route path="/swimming" element={<Swimming />}/>
+            <Route path="/about" element={<About />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/event" element={<Event />} />
+            <Route path="/hotelroom" element={<HotelRoom />} />
+            <Route path="/rules" element={<Rules />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/swimming" element={<Swimming />} />
         </Routes>
     );
 }

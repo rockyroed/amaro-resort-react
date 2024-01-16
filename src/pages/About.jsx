@@ -4,7 +4,7 @@ import CTA from "./CTA.jsx";
 
 import "../css/About.css";
 
-function About() {
+const About = () => {
     return (
         <>
             <section id="navBar" className="page-section active">

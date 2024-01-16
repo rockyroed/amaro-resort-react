@@ -9,7 +9,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 import "../App.css";
 
-function Footer() {
+const Footer = () => {
     return (
         <>
             <section id="footer">

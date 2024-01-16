@@ -7,7 +7,7 @@ import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 import "../css/HotelRoom.css";
 
-function HotelRoom() {
+const HotelRoom = () => {
     return (
         <>
             <section id="navBar" className="page-section active">

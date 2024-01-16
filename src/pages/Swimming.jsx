@@ -4,7 +4,7 @@ import CTA from "./CTA.jsx";
 
 import "../css/Swimming.css";
 
-function Swimming() {
+const Swimming = () => {
     return (
         <>
             {/* start of nav */}

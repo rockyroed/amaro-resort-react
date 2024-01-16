@@ -7,7 +7,7 @@ import { faBars, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 
 import "../App.css";
 
-function Header() {
+const Header = () => {
     return (
         <>
             <div className="site-nav">
