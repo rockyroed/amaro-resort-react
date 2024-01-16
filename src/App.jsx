@@ -54,13 +54,13 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/event" element={<Event />} />
-            <Route path="/hotelroom" element={<HotelRoom />} />
+            <Route path="/hotel-room" element={<HotelRoom />} />
             <Route path="/reservation" element={<Reservation />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />
             <Route path="/swimming" element={<Swimming />} />
-            <Route path="/bookingdetails" element={<BookingDetails />} />
-            <Route path="/bookingsummary" element={<BookingSummary />} />
+            <Route path="/booking-details" element={<BookingDetails />} />
+            <Route path="/booking-summary" element={<BookingSummary />} />
         </Routes>
     );
 };

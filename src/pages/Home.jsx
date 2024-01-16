@@ -75,7 +75,7 @@ const Home = () => {
                                     and ready for new adventures.
                                 </p>
                             </div>
-                            <Link to="/hotelroom" id="roomBook">
+                            <Link to="/hotel-room" id="roomBook">
                                 <button type="button" className="svc-btn">
                                     VIEW DETAILS
                                 </button>
