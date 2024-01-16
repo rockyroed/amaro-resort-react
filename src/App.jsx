@@ -14,6 +14,7 @@ import Swimming from "./pages/Swimming.jsx";
 import BookingDetails from "./pages/BookingDetails.jsx";
 import BookingSummary from "./pages/BookingSummary.jsx";
 import Confirmation from "./pages/Confirmation.jsx";
+import Details from "./pages/Details.jsx";
 
 
 const App = () => {
@@ -64,6 +65,7 @@ const App = () => {
             <Route path="/booking-details" element={<BookingDetails />} />
             <Route path="/booking-summary" element={<BookingSummary />} />
             <Route path="/confirmation" element={<Confirmation />} />
+            <Route path="/details" element={<Details />} />
         </Routes>
     );
 };
