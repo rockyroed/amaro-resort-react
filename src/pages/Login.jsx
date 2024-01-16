@@ -66,9 +66,9 @@ const Login = () => {
                                 <span class="question">
                                     Don't have an account yet?
                                 </span>
-                                <a href="signup.php" id="signupLink">
+                                <Link to="/signup" id="signupLink">
                                     <span class="textlink">SIGN UP</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

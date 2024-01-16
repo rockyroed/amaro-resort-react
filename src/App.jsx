@@ -12,7 +12,7 @@ import Rules from "./pages/Rules.jsx";
 import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
 import Login from "./pages/Login.jsx";
-
+import Signup from "./pages/Signup.jsx";
 
 const App = () => {
     const location = useLocation();
@@ -59,6 +59,7 @@ const App = () => {
             <Route path="/reservation" element={<Reservation />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/signup" element={<Signup />} />
             <Route path="/swimming" element={<Swimming />} />
         </Routes>
     );
