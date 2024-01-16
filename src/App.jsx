@@ -7,10 +7,12 @@ import About from "./pages/About.jsx";
 import Contacts from "./pages/Contacts.jsx";
 import Event from "./pages/Event.jsx";
 import HotelRoom from "./pages/HotelRoom.jsx";
+import Reservation from "./pages/Reservation.jsx";
 import Rules from "./pages/Rules.jsx";
 import Services from "./pages/Services.jsx";
 import Swimming from "./pages/Swimming.jsx";
 import BookingDetails from "./pages/BookingDetails.jsx";
+
 
 const App = () => {
     const location = useLocation();
@@ -53,6 +55,7 @@ const App = () => {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/event" element={<Event />} />
             <Route path="/hotelroom" element={<HotelRoom />} />
+            <Route path="/reservation" element={<Reservation />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />
             <Route path="/swimming" element={<Swimming />} />

@@ -29,10 +29,10 @@ const Header = () => {
                         {" "}
                         Services{" "}
                     </Link>
-                    <a className="navBar" href="login.php">
+                    <Link to="/reservation" className="navbar">
                         {" "}
                         Reservation{" "}
-                    </a>
+                        </Link>
                     <Link to="/contacts" className="navbar">
                         {" "}
                         Contact{" "}
