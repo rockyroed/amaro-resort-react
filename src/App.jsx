@@ -17,6 +17,7 @@ import Confirmation from "./pages/Confirmation.jsx";
 import Details from "./pages/Details.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
+import PaymentDetails from "./pages/Payment-Details.jsx";
 
 const App = () => {
     const location = useLocation();
@@ -60,6 +61,7 @@ const App = () => {
             <Route path="/event" element={<Event />} />
             <Route path="/hotel-room" element={<HotelRoom />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/payment-details" element={<PaymentDetails />} />
             <Route path="/reservation" element={<Reservation />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/services" element={<Services />} />
