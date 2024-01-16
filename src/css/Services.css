@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
     --primary-button-clr: #38621e;
     --primary-btn-hover: #60814b;
@@ -171,15 +172,19 @@ body {
         #menu-icon {
             display: inline-block;
         }
+
         .head-top a {
             display: none;
         }
+
         .head-btn {
             font-size: 17px;
         }
+
         .head-bottom h1 {
             font-size: 28px;
         }
+
         .head-bottom p {
             font-size: 17px;
             margin: 20px auto;
@@ -780,6 +785,7 @@ body {
             margin: 0 auto;
         }
     }
+
     #email {
         background-color: #fff;
     }

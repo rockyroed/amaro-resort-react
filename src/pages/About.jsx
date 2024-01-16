@@ -103,5 +103,5 @@ const About = () => {
             {/* end of footer */}
         </>
     );
-}
+};
 export default About;

@@ -31,7 +31,7 @@ const HotelRoom = () => {
                             </div>
 
                             <div class="inclusions">
-                            <FontAwesomeIcon
+                                <FontAwesomeIcon
                                     icon={faArrowCircleRight}
                                     className="fa-arrow-circle-right"
                                 />
@@ -57,7 +57,7 @@ const HotelRoom = () => {
                             </div>
 
                             <div class="inclusions">
-                            <FontAwesomeIcon
+                                <FontAwesomeIcon
                                     icon={faArrowCircleRight}
                                     className="fa-arrow-circle-right"
                                 />
@@ -89,5 +89,5 @@ const HotelRoom = () => {
             {/* end of footer */}
         </>
     );
-}
+};
 export default HotelRoom;

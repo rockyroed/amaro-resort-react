@@ -7,7 +7,7 @@ import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 
 import "../css/Event.css";
 
-const Event= () => {
+const Event = () => {
     return (
         <>
             <section id="navBar" className="page-section active">
@@ -89,5 +89,5 @@ const Event= () => {
             {/* end of footer */}
         </>
     );
-}
+};
 export default Event;

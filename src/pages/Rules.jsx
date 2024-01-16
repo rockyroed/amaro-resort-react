@@ -191,5 +191,5 @@ const Rules = () => {
             {/* end of footer */}
         </>
     );
-}
+};
 export default Rules;

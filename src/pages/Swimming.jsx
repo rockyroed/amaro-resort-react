@@ -138,13 +138,13 @@ const Swimming = () => {
             {/* end of amenities */}
 
             {/* start of CTA */}
-            < CTA />
+            <CTA />
             {/* end of CTA */}
 
             {/* start of footer */}
-            < Footer />
+            <Footer />
             {/* end of footer */}
         </>
     );
-}
+};
 export default Swimming;
