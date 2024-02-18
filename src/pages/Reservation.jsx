@@ -8,9 +8,9 @@ const Reservation = () => {
     return (
         <>
             <section id="reservation">
-                <div class="left-book">
-                    <div class="left-container">
-                        <div class="site-name" id="site-name">
+                <div className="left-book">
+                    <div className="left-container">
+                        <div className="site-name" id="site-name">
                             <Link to="/" id="navlogo">
                                 <img
                                     src={amaroLogoWhite}
@@ -23,7 +23,7 @@ const Reservation = () => {
                         <a href="#swim-book" id="swimBook">
                             <button
                                 type="button"
-                                class="book-btn"
+                                className="book-btn"
                                 value="Swimming"
                                 id="swimming-btn"
                             >
@@ -33,7 +33,7 @@ const Reservation = () => {
                         <a href="#room-book" id="roomBook">
                             <button
                                 type="button"
-                                class="book-btn"
+                                className="book-btn"
                                 value="Room"
                                 id="room-btn"
                             >
@@ -43,7 +43,7 @@ const Reservation = () => {
                         <a href="#event-book" id="eventBook">
                             <button
                                 type="button"
-                                class="book-btn"
+                                className="book-btn"
                                 value="Event"
                                 id="event-btn"
                             >
@@ -52,26 +52,26 @@ const Reservation = () => {
                         </a>
                     </div>
                 </div>
-                <div class="right-book hidden" id="right-book">
-                    <div class="right-container">
+                <div className="right-book hidden" id="right-book">
+                    <div className="right-container">
                         <img src={amaroLogo} alt="logo" className="logo" />
-                        <span class="section-name" id="section-name"></span>
-                        <div class="form-container">
+                        <span className="section-name" id="section-name"></span>
+                        <div className="form-container">
                             <header>Guest Details</header>
                             <p>Fill out the required fields to reserve.</p>
-                            <hr class="hz-line" />
+                            <hr className="hz-line" />
                             {/* Form */}
-                            <form action="" class="form" method="post">
+                            <form action="" className="form" method="post">
                                 {/* Full Name Column */}
                                 <input
-                                    class="hidden"
+                                    className="hidden"
                                     id="restype"
                                     name="restype"
                                 ></input>
-                                <div class="column">
+                                <div className="column">
                                     {/* First Name */}
-                                    <div class="input-box">
-                                        <label for="FirstName">
+                                    <div className="input-box">
+                                        <label htmlFor="FirstName">
                                             First Name
                                         </label>
                                         <input
@@ -79,17 +79,16 @@ const Reservation = () => {
                                             id="firstName"
                                             title="First Name"
                                             name="FirstName"
-                                            value="<?php echo $firstname; ?>"
                                             size="40"
-                                            maxlength="50"
+                                            maxLength="50"
                                             placeholder="First Name"
                                             required
                                         />
                                     </div>
 
                                     {/* Middle Name */}
-                                    <div class="input-box">
-                                        <label for="MiddleName">
+                                    <div className="input-box">
+                                        <label htmlFor="MiddleName">
                                             Middle Name
                                         </label>
                                         <input
@@ -97,24 +96,22 @@ const Reservation = () => {
                                             id="middleName"
                                             title="Middle Name"
                                             name="MiddleName"
-                                            value="<?php echo $middlename; ?>"
                                             size="30"
-                                            maxlength="50"
+                                            maxLength="50"
                                             placeholder="Middle Name"
                                         />
                                     </div>
 
                                     {/* Last Name */}
-                                    <div class="input-box">
-                                        <label for="LastName">Last Name</label>
+                                    <div className="input-box">
+                                        <label htmlFor="LastName">Last Name</label>
                                         <input
                                             type="text"
                                             id="lastName"
                                             title="Last Name"
                                             name="LastName"
-                                            value="<?php echo $lastname; ?>"
                                             size="30"
-                                            maxlength="50"
+                                            maxLength="50"
                                             placeholder="Last Name"
                                             required
                                         />
@@ -122,9 +119,9 @@ const Reservation = () => {
                                 </div>
 
                                 {/* Phone Number */}
-                                <div class="column">
-                                    <div class="input-box">
-                                        <label for="PhoneNumber">
+                                <div className="column">
+                                    <div className="input-box">
+                                        <label htmlFor="PhoneNumber">
                                             Phone Number
                                         </label>
                                         <input
@@ -133,16 +130,15 @@ const Reservation = () => {
                                             title="11-Digit Phone Number"
                                             name="PhoneNumber"
                                             placeholder="(09)00-000-0000"
-                                            maxlength="11"
+                                            maxLength="11"
                                             pattern="[09]{2}[0-9]{9}"
-                                            value="<?php echo $phonenumber; ?>"
                                             required
                                         />
                                     </div>
 
                                     {/* Email Address */}
-                                    <div class="input-box">
-                                        <label for="EmailAddress">
+                                    <div className="input-box">
+                                        <label htmlFor="EmailAddress">
                                             Email Address
                                         </label>
                                         <input
@@ -150,22 +146,21 @@ const Reservation = () => {
                                             id="emailAddress"
                                             title="Email Address"
                                             name="EmailAddress"
-                                            value="<?php echo $emailaddress; ?>"
                                             size="50"
-                                            maxlength="50"
+                                            maxLength="50"
                                             placeholder="Email Address"
                                             required
                                         />
                                     </div>
                                 </div>
 
-                                <hr class="horizontal-line" />
+                                <hr className="horizontal-line" />
 
-                                <div class="cta-buttons">
+                                <div className="cta-buttons">
                                     <a href="index.php" id="cancelButton">
                                         <button
                                             type="button"
-                                            class="secondary-btn"
+                                            className="secondary-btn"
                                         >
                                             CANCEL
                                         </button>
@@ -174,7 +169,7 @@ const Reservation = () => {
                                         href="bookingdetails.php"
                                         id="reserveButton"
                                     >
-                                        <button class="primary-btn">
+                                        <button className="primary-btn">
                                             BOOK NOW
                                         </button>
                                     </a>

@@ -17,8 +17,8 @@ const About = () => {
 
             {/* start of header */}
             <section id="header">
-                <div class="header-container">
-                    <div class="header-content">
+                <div className="header-container">
+                    <div className="header-content">
                         <h1>
                             Unveiling Our Resort: <br />
                             Background, Mission, Vision, and FAQs
@@ -30,12 +30,12 @@ const About = () => {
 
             {/* start of background */}
             <section id="background">
-                <div class="background-container">
-                    <span class="section-name">BACKGROUND</span>
-                    <span class="section-phrase">
+                <div className="background-container">
+                    <span className="section-name">BACKGROUND</span>
+                    <span className="section-phrase">
                         Amaro Resort's Captivating Origins and Legacy
                     </span>
-                    <div class="background-content">
+                    <div className="background-content">
                         <p>
                             Escape to Amaro Resort, your affordable quick
                             getaway in Metro Manila. Nestled in the captivating
@@ -60,9 +60,9 @@ const About = () => {
 
             {/* start of mission and vision */}
             <section id="missionVision">
-                <div class="mv-container">
-                    <div class="mv-content">
-                        <div class="mission">
+                <div className="mv-container">
+                    <div className="mv-content">
+                        <div className="mission">
                             <h2>Our Mission</h2>
                             <p>
                                 At Amaro Resort, our mission is to offer guests
@@ -75,7 +75,7 @@ const About = () => {
                                 community.
                             </p>
                         </div>
-                        <div class="vision">
+                        <div className="vision">
                             <h2>Our Vision</h2>
                             <p>
                                 At Amaro Resort, our vision is to become
