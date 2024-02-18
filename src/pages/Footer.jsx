@@ -16,13 +16,13 @@ const Footer = () => {
                 <div className="ftr-container">
                     <div className="ftr-content">
                         <div className="ftr-left">
-                            <a href="index.php" id="footerLogo">
+                            <Link to="/home" id="footerLogo">
                                 <img
                                     src={footerLogo}
                                     alt="logo"
                                     className="ftr-logo"
                                 />
-                            </a>
+                            </Link>
                             <p className="cta-text">
                                 Book your unforgettable getaway now and
                                 experience the ultimate relaxation at our
@@ -83,9 +83,13 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <a href="reservation.php">
-                                            Reservation
-                                        </a>
+                                        <Link
+                                            to="/reservation"
+                                            className="navbar"
+                                        >
+                                            {" "}
+                                            Reservation{" "}
+                                        </Link>
                                     </li>
                                     <li>
                                         <Link to="/contacts" className="navbar">

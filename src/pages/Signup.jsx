@@ -12,15 +12,15 @@ const Signup = () => {
                 <div class="left-side">
                     <div class="left-container">
                         <div class="site-name" id="site-name">
-                            <a href="index.php" id="navlogo">
-                            <img src={amaroLogo}/>
-                            </a>
+                            <Link to="/home" id="navlogo">
+                                <img src={amaroLogo} />
+                            </Link>
                         </div>
                         <h1>Create your Account</h1>
                         <p>Sign up now to book a reservation!</p>
                         <div class="form">
                             {/* Form */}
-                            <form action="signup.php" method="post">
+                            <form method="post">
                                 <div class="column">
                                     {/* First Name */}
                                     <div class="input-box">
@@ -166,5 +166,5 @@ const Signup = () => {
             {/* end of login */}
         </>
     );
-}
+};
 export default Signup;

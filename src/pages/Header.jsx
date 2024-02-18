@@ -38,11 +38,11 @@ const Header = () => {
                         Contact{" "}
                     </Link>
                 </div>
-                <a href="login.php" id="book-button">
+                <Link to="/login" id="book-button">
                     <button type="button" className="book-btn">
                         Book Now
                     </button>
-                </a>
+                </Link>
 
                 <div className="vl"></div>
 

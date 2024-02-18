@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "../App.css";
 
 const CTA = () => {
@@ -16,11 +18,11 @@ const CTA = () => {
                             </p>
                         </div>
                         <div className="cta-below">
-                            <a href="login.php" id="cta-button">
+                            <Link to="/login" id="cta-button">
                                 <button type="button" className="cta-btn">
                                     BOOK NOW
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

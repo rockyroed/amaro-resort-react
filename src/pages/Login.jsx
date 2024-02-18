@@ -22,7 +22,7 @@ const Login = () => {
                         <h1>Login to your Account</h1>
                         <p>Welcome back! Please login to continue</p>
                         <div class="form">
-                            <form action="login.php" method="post">
+                            <form method="post">
                                 {/* Email Address */}
                                 <div class="input-box">
                                     <label for="emailAdd">Email Address</label>

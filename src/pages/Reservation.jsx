@@ -104,7 +104,9 @@ const Reservation = () => {
 
                                     {/* Last Name */}
                                     <div className="input-box">
-                                        <label htmlFor="LastName">Last Name</label>
+                                        <label htmlFor="LastName">
+                                            Last Name
+                                        </label>
                                         <input
                                             type="text"
                                             id="lastName"
@@ -157,22 +159,22 @@ const Reservation = () => {
                                 <hr className="horizontal-line" />
 
                                 <div className="cta-buttons">
-                                    <a href="index.php" id="cancelButton">
+                                    <Link to="/home" id="cancelButton">
                                         <button
                                             type="button"
                                             className="secondary-btn"
                                         >
                                             CANCEL
                                         </button>
-                                    </a>
-                                    <a
-                                        href="bookingdetails.php"
+                                    </Link>
+                                    <Link
+                                        to="/booking-details"
                                         id="reserveButton"
                                     >
                                         <button className="primary-btn">
                                             BOOK NOW
                                         </button>
-                                    </a>
+                                    </Link>
                                 </div>
                             </form>
                             {/* End of Form */}

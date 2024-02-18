@@ -23,11 +23,11 @@ const Home = () => {
                             accommodations, a versatile event area for memorable
                             occasions, and a refreshing swimming pool.
                         </p>
-                        <a href="login.php" id="check-menu">
+                        <Link to="/login" id="check-menu">
                             <button type="button" className="head-btn">
                                 BOOK NOW
                             </button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 {/* end of hero */}

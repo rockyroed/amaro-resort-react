@@ -108,11 +108,11 @@ const PaymentDetails = () => {
                                             BACK
                                         </button>
                                     </a>
-                                    {/* <!-- <a href="bookingsummary.php" id="confirm"> --> */}
-                                    <button class="primary-btn">
-                                        CONFIRM PAYMENT
-                                    </button>
-                                    {/* </a> */}
+                                    <a href="/booking-summary" id="confirm">
+                                        <button class="primary-btn">
+                                            CONFIRM PAYMENT
+                                        </button>
+                                    </a>
                                 </div>
                             </form>
                             {/* End of Form */}
