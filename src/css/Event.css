@@ -206,12 +206,12 @@ body {
     margin: 20px;
     box-shadow: 0px 4px 30px 0px rgba(12, 54, 14, 0.3);
 
-    .left-img-1 {
+    .event-left-img-1 {
         width: 50%;
         background: url("../assets/functionhall.jpg") center/cover no-repeat;
     }
 
-    .left-img-2 {
+    .event-left-img-2 {
         width: 50%;
         background: url("../assets/court.jpg") center/cover no-repeat;
     }

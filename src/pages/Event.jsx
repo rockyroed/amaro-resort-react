@@ -23,7 +23,7 @@ const Event = () => {
                 <div className="rates-container">
                     <span className="section-phrase">Event Rates</span>
                     <div className="room-rates-container">
-                        <div className="left-img-1"></div>
+                        <div className="event-left-img-1"></div>
                         <div className="right-details">
                             <div className="room-price">
                                 <h2> Function Hall </h2>
@@ -74,7 +74,7 @@ const Event = () => {
                             </ul>
                         </div>
 
-                        <div className="left-img-2"></div>
+                        <div className="event-left-img-2"></div>
                     </div>
                 </div>
             </section>
